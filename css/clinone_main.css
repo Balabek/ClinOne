@@ -1,0 +1,218 @@
+/* 𝙼𝚊𝚒𝚗 𝙲𝚂𝚂 𝚂𝚝𝚢𝚕𝚎𝚜𝚑𝚎𝚎𝚝 */
+
+/* ============= */
+/* =========== GENERAL =========== */
+/* ============= */
+
+html {
+    font-size: 14px !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    max-width: 100%;
+    /*text-rendering: optimizeLegibility;*/
+}
+
+.title-font {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #666666;
+}
+
+.outermost_wrapper {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+a:focus, button:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: transparent;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.001) inset, 0 0 1px rgba(255, 255, 255, 0.1);
+    outline: 0 none;
+}
+
+input:disabled, input[disabled] {
+    opacity: 0.5 !important;
+}
+
+
+
+
+/* ============= */
+/* =========== NAVIGATION =========== */
+/* ============= */
+
+.bg-light {
+    position: relative;
+    z-index: 10;
+    height: 101px;
+    background: #FFFFFF !important;
+    box-shadow: 0 33px 119px rgba(0, 0, 0, 0.04);
+}
+
+img.nav_logo {
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+}
+
+ul.clin_navbar {
+    position: relative;
+    top: 5px;
+    z-index: 7;
+}
+
+li.nav-item {
+    margin-right: 22px;
+}
+
+li.nav-item a {
+    font-size: 1.143rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {color: #666666;}
+
+li.nav-item > a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #D82B5D;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+li.nav-item > a:hover:after {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.active {
+    color: #D82B5D !important;
+}
+
+button.navbtn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.clin_nav_toggler {
+    border: none !important;
+}
+
+.clin_nav_toggler:focus {
+    box-shadow: 0 0 0 0.0rem;
+}
+
+.clin_nav_toggler > span.navbar-toggler-icon {
+    transition: 0.4s all ease-in-out;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,89,143, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.colorfuse {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227,190,57, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    transform: rotate(-90deg);
+}
+
+.clin_nav_toggler:not(:focus) > span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,89,143, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+
+/* Hamburger menu animation assets */
+.animated-icon1 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0;
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon1 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {background: #163656;}
+
+.animated-icon1 span:nth-child(1) {top: 0;}
+
+.animated-icon1 span:nth-child(2) {top: 10px;}
+
+.animated-icon1 span:nth-child(3) {top: 20px;}
+
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+
+
+
+
+/* ============= */
+/* =========== HEADER =========== */
+/* ============= */
+
+.clinone_home_header_area {
+    position: relative;
+    min-height: 735px;
+    height: auto;
+    width: 100%;
+     background-color: #ced4da;
+}
+
+
+
+
+
+
+
+
+
+
+
+
