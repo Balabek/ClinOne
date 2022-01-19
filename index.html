@@ -22,6 +22,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
@@ -31,7 +36,9 @@
     <!-- Hover CSS -->
     <link href="css/hover.css" rel="stylesheet">
 
-    <!-- Slick Slider & Slick Lightbox -->
+    <!-- Slick Slider -->
+    <link href="slick-1.8.1/slick/slick.css" rel="stylesheet">
+    <link href="slick-1.8.1/slick/slick-theme.css" rel="stylesheet">
 
     <!-- Main CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -57,23 +64,37 @@
             <div class="collapse navbar-collapse justify-content-end" id="clinOneNavCollapse">
                 <ul class="navbar-nav clin_navbar animate__animated animate__fadeIn">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="clinOneDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="#" class="nav-link" id="clinOneDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Solutions
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="clinOneDropdownMenuLink1">
-                            <li><a class="dropdown-item" href="#">Connect</a></li>
-                            <li><a class="dropdown-item" href="#">Inform</a></li>
-                            <li><a class="dropdown-item" href="#">Empower</a></li>
+                        <ul class="dropdown-menu clin_dropdown_menu" aria-labelledby="clinOneDropdownMenuLink1">
+                            <li><a class="dropdown-item" href="#">
+                                Connect
+                                <i class="fas fa-arrow-right dropdownarrow" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Inform
+                                    <i class="fas fa-arrow-right dropdownarrow" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Empower
+                                    <i class="fas fa-arrow-right dropdownarrow" aria-hidden="true"></i>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Why ClinOne?</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="clinOneDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="#" class="nav-link" id="clinOneDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Our Company
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="clinOneDropdownMenuLink2">
+                        <ul class="dropdown-menu clin_dropdown_menu" aria-labelledby="clinOneDropdownMenuLink2">
                             <li><a class="dropdown-item" href="#">Team</a></li>
                             <li><a class="dropdown-item" href="#">Careers</a></li>
                             <li><a class="dropdown-item" href="#">News</a></li>
@@ -93,34 +114,332 @@
         </div>
     </nav> <!-- Navigation END -->
 
-    <div class="clinone_home_header_area">
+    <div class="clinone_home_header_area" style="background: url('img/homepage_header_hero_image.png') center center no-repeat; background-size: cover;">
         <div class="container">
             <div class="row">
+                <div class="h_banner_home">
+                    <h1>The results you need.<br>The experience they deserve.</h1>
+                    <h2>Technology to <span>connect</span>, <span>inform</span>, and <span>empower</span> patients in global clinical trials.</h2>
+                    <button class="btn main_cta_btn">Request Demo</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Home header area END -->
+
+    <div class="resources_area">
+        <div class="container">
+            <div class="row solution_boxes_holder justify-content-center">
+                <a href="javascript:void(0);" class="col-md-4 solution_box_outermost ">
+                    <div class="solutionbox">
+                        <div class="icon_holder">
+                            <img src="img/connect.svg" class="solution_icon" alt="Connect Icon">
+                        </div>
+                        <div class="solution_title">
+                            <h3>Connect</h3>
+                        </div>
+                        <div class="solution_features_list_holder">
+                            <ul class="solution_features">
+                                <li>Trial Awareness</li>
+                                <li>Enrollment Opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="col-md-4 solution_box_outermost ">
+                    <div class="solutionbox">
+                        <div class="icon_holder">
+                            <img src="img/inform.svg" class="solution_icon" alt="Connect Icon">
+                        </div>
+                        <div class="solution_title">
+                            <h3>Inform</h3>
+                        </div>
+                        <div class="solution_features_list_holder">
+                            <ul class="solution_features">
+                                <li>eConsent</li>
+                                <li>Re-consent Management</li>
+                                <li>Global Progress Tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="col-md-4 solution_box_outermost ">
+                    <div class="solutionbox">
+                        <div class="icon_holder">
+                            <img src="img/empower.svg" class="solution_icon" alt="Connect Icon">
+                        </div>
+                        <div class="solution_title">
+                            <h3>Empower</h3>
+                        </div>
+                        <div class="solution_features_list_holder">
+                            <ul class="solution_features">
+                                <li>Uber Health</li>
+                                <li>Medication Adherence</li>
+                                <li>DCT Patient Portal</li>
+                                <li>eDiary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="row resources_slider_holder justify-content-center">
+                    <div class="section_title_holder text-center">
+                        <h2>Resources</h2>
+                        <span class="title_decoration"></span>
+                    </div>
+                    <div class="resource_slider">
+                        <div class="r_slide">
+                            <div class="resource_thumb">
+                                <img class="r_thumb" src="img/webinar-website.png" alt="Resource thumbnail collage">
+                            </div>
+                            <div class="resource_details">
+                                <small>Webinar</small>
+                                <h5>Bruno Gagnon of BridgeBio discusses strategies to reduce “Data Missingness”</h5>
+                                <button class="btn resource_cta_btn">
+                                    Watch on Demand
+                                    <span class="arrow"></span>
+                                </button>
+                            </div>
+                        </div> <!-- Slide END -->
+
+                        <div class="r_slide">
+                            <div class="resource_thumb">
+                                <img class="r_thumb" src="img/cs_02.jpg" alt="Resource thumbnail">
+                            </div>
+                            <div class="resource_details">
+                                <small>Case Study</small>
+                                <h5>Moderna has teamed up with ClinOne to produce new generation of antibiotics</h5>
+                                <button class="btn resource_cta_btn">
+                                    View Case Study
+                                    <span class="arrow"></span>
+                                </button>
+                            </div>
+                        </div> <!-- Slide END -->
+
+                        <div class="r_slide">
+                            <div class="resource_thumb">
+                                <img class="r_thumb" src="img/cs_03.jpg" alt="Resource thumbnail">
+                            </div>
+                            <div class="resource_details">
+                                <small>News</small>
+                                <h5>Dr. Helmut Wolfvsförze has invented a new approach in fighting bubonic plague </h5>
+                                <button class="btn resource_cta_btn">
+                                    Read More
+                                    <span class="arrow"></span>
+                                </button>
+                            </div>
+                        </div> <!-- Slide END -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Resources Area END -->
+
+    <div class="why_clinone_section">
+        <div class="container">
+            <div class="row why_clinone_section_content_outermost">
+                <div class="col-lg-6 why_clinone_section_textual_holder">
+                    <div class="section_title_holder leftaligned">
+                        <h2>Why ClinOne</h2>
+                        <span class="title_decoration"></span>
+                    </div>
+                    <article class="standard_body_text leftaligned">
+                        <p>
+                            With so many technology providers, we understand it can be overwhelming to know whom to trust.
+                            ClinOne provides a <span>true single platform</span> built to be easily configured for your protocol while
+                            making it easier for patients, caregivers, and sites to actively participate in your trial.
+                            And our team is comprised of seasoned leaders with decades of experience at the industry’s
+                            largest technology providers.
+                        </p>
+                    </article>
+                    <button class="btn section_cta_btn">Request Demo</button>
+                </div>
+                <div class="col-lg-6 two_phones_subsection">
+                    <div class="twophones"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Why ClinOne Section END -->
+
+    <div class="set_aparat_area">
+        <div class="container">
+            <div class="row set_apart_content_outermost">
+                <div class="section_title_holder text-center">
+                    <h2>What Sets Us Apart</h2>
+                    <span class="title_decoration"></span>
+                </div>
+                <article class="standard_body_text centered_and_shrinked">
+                    <p>
+                        Since 2016, ClinOne has supported patients and families in clinical research with a single
+                        platform for specialist referrals, eConsent, and patient empowerment.
+                    </p>
+                </article>
+                <div class="row advantage_circles_and_icons_outermost">
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_truesingleplatform.svg" class="apart_icon" alt="Dashboard icon">
+                        </div>
+                        <h5>True Single Platform</h5>
+                    </div> <!-- Icon + Circle END -->
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_fast.svg" class="apart_icon" alt="Bolt icon">
+                        </div>
+                        <h5>Fastest Deployment in the Industry (2-8 weeks)</h5>
+                    </div> <!-- Icon + Circle END -->
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_cost.svg" class="apart_icon" alt="Piggy bank icon">
+                        </div>
+                        <h5>Cost-Effective and Configurable</h5>
+                    </div> <!-- Icon + Circle END -->
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_ontime.svg" class="apart_icon" alt="Timer icon">
+                        </div>
+                        <h5>96% On-Time Implementation</h5>
+                    </div> <!-- Icon + Circle END -->
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_api.svg" class="apart_icon" alt="API icon">
+                        </div>
+                        <h5>Interoperable with API and Webhooks</h5>
+                    </div> <!-- Icon + Circle END -->
+                    <div class="col-lg-2 col-md-4 col-sm-6 circle_icon_holder justify-content-center">
+                        <div class="solo_circle">
+                            <img src="img/icon_nurse.svg" class="apart_icon" alt="Nurse icon">
+                        </div>
+                        <h5>Developed in Collaboration with Sites</h5>
+                    </div> <!-- Icon + Circle END -->
+                </div>
+            </div>
+        </div>
+    </div> <!-- Set Apart Area END -->
+
+    <div class="trusted_partnership_area">
+        <div class="container">
+            <div class="row partnership_content_outermost">
+                <div class="section_title_holder text-center">
+                    <h2>Trusted Partnership</h2>
+                    <span class="title_decoration"></span>
+                </div>
+                <article class="standard_body_text centered_and_shrinked">
+                    <p>
+                        Sponsors, CROs, and site networks of all sizes rely on ClinOne technology to conduct their
+                        trials and improve the patient experience worldwide.
+                    </p>
+                </article>
+                <div class="row stats_outermost">
+                    <div class="col-lg-4 statbox">
+                        <h1>56+</h1>
+                        <hr>
+                        <p>Countries</p>
+                    </div>
+                    <div class="col-lg-4 statbox">
+                        <h1>50+</h1>
+                        <hr>
+                        <p>Sponsor and CRO Customers </p>
+                    </div>
+                    <div class="col-lg-4 statbox">
+                        <h1>60+</h1>
+                        <hr>
+                        <p>Languages</p>
+                    </div>
+                </div> <!-- Stats Outermost END -->
+
+                <div class="partners_slider_holder">
+                    <div class="partner_slider">
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_astellas.png" class="p_logo" alt="Astellas logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_astra.png" class="p_logo" alt="Astra logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_moderna.png" class="p_logo" alt="Moderna logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_calithera.jpg" class="p_logo" alt="Calithera logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_kura.png" class="p_logo" alt="Kura logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_eisai.png" class="p_logo" alt="Eisani logo">
+                        </div>
+                        <div class="p_logo_slide">
+                            <img src="img/p_logo_ipsen.png" class="p_logo" alt="IPSEN logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Trusted Partnership Area END -->
+
+    <div class="popbox_area">
+        <div class="container">
+            <div class="row popbox_content_outermost">
+                <div class="col-12 justify-content-center popbox_one">
+                    <div class="section_title_holder text-center white_ttl">
+                        <h2>Still Have Questions?</h2>
+                        <span class="title_decoration"></span>
+                    </div>
+                    <div class="popbox_button_holder">
+                        <button class="btn section_cta_btn">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Pop Box Area END-->
+
+    <footer class="clinone_footer">
+        <div class="container">
+            <div class="row footer_content_outermost justify-content-center">
+                <div class="footer_logo_holder">
+                    <img src="img/logo.svg" class="footerlogo" alt="ClinOne logo">
+                </div>
+
+                <div class="row footer_links_holder justify-content-center">
+                    <div class="col-sm-3 f_links_outermost">
+                        <h6>Solutions</h6>
+                        <ul class="f_linx">
+                            <li><a href="#">Connect</a></li>
+                            <li><a href="#">Inform</a></li>
+                            <li><a href="#">Empower</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 f_links_outermost">
+                        <h6>Our Company</h6>
+                        <ul class="f_linx">
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 f_links_outermost contact_details">
+                        <ul class="f_linx_contact">
+                            <li><i class="fas fa-phone-alt"></i><a href="tel:+1-800-343-6920">+1-800-343-6920</a></li>
+                            <li><i class="fas fa-paper-plane"></i><a href="mailto:sales@clinone.com">sales@clinone.com</a></li>
+                            <li><i class="fas fa-paper-plane"></i><a href="mailto:sales@clinone.com">support@clinone.com</a></li>
+                        </ul>
+                        <div class="likedin_connection_holder">
+                            <div class="icon_and_text_holder">
+                                <span class="linkedin"></span>
+                                <a href="#">Follow us on <span>LinkedIn</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer_separ">
+                <div class="row post_footer_notes_outermost justify-content-center">
+                    <small>&copy; 2022 ClinOne</small>
+                    <a href="#">Privacy Policy</a>
+                </div>
 
             </div>
         </div>
-
-
-    </div> <!-- Home header area END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer> <!-- Footer END -->
 
 </div> <!-- Outermost Wrapper END-->
 
@@ -130,6 +449,7 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/clinone_custom.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
 
 </body>
 
