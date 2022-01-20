@@ -905,7 +905,13 @@ img.footerlogo {
     padding-top: 55px;
 }
 
+
+.f_links_outermost {
+
+}
+
 .f_links_outermost h6 {
+    display: inline-block;
     font-size: 1.143rem;
     font-weight: 700;
     color: #D82B5D;
@@ -1032,6 +1038,354 @@ hr.footer_separ {
 .post_footer_notes_outermost a:hover {
     color: #79C2C4;
 }
+
+
+
+
+/* ============= */
+/* =========== EMPOWER (SOLUTIONS) INNER PAGE =========== */
+/* ============= */
+
+.clinone_inner_header_area {
+    position: relative;
+    display: block;
+    min-height: 300px;
+    height: auto;
+}
+
+.h_banner_inner h1 {
+    font-size: 4.141rem;
+    font-weight: 800;
+    color: #666666;
+    text-align: left;
+}
+
+.h_banner_inner {
+    position: absolute;
+    top: 110px;
+}
+
+.problem_and_solution_area {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 365px;
+    height: auto;
+}
+
+.problem_solution_content_outermost {
+    position: relative;
+    top: -26px;
+}
+
+.problembox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    background: #163656;
+    border-radius: 2px;
+}
+
+.problem_statement {
+    padding-left: 22px;
+}
+
+.problem_statement p {
+    font-size: 1.571rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.problem_statement p span {
+    font-size: 2.286rem;
+    font-weight: 800;
+    color: #D82B5D;
+}
+
+.solutionbox_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: -24px;
+    left: -2px;
+    padding-left: 24px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: -20px 0 56px rgba(0, 0, 0, 0.03);
+}
+
+.solution_statement h5 {
+    font-size: 1.857rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+ul.solution_statement_points {
+    padding-left: 0;
+}
+
+ul.solution_statement_points li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    font-size: 1.371rem;
+    color: #000000;
+    text-indent: -34px;
+    margin-left: 34px;
+}
+
+ul.solution_statement_points li:before {
+    position: relative;
+    top: 2px;
+    margin-right: 12px;
+    content: '';
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background: url('../img/redcheck.svg') center center no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+/* ============= */
+/* =========== SOLUTIONS MAIN AREA =========== */
+/* ============= */
+
+.solutions_main_area {
+    position: relative;
+    display: block;
+    min-height: 1200px;
+    height: auto;
+    padding-top: 26px;
+    padding-bottom: 75px;
+    background: linear-gradient(180deg, #F9F9F9 0%, rgba(254, 254, 254, 0) 100%);
+}
+
+.solutions_inner_content_outermost {
+    position: relative;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+img.ipad_collage {
+    display: block;
+    position: relative;
+    width: 430px;
+    height: 285px;
+    object-fit: contain;
+}
+
+.solutions_subservice_details {
+    position: relative;
+    height: auto;
+    padding-left: 22px;
+}
+
+.solutions_subservice_details h4 {
+    font-size: 1.714rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: left;
+}
+
+article.basic_inner_textblock {
+    padding-top: 18px;
+    padding-right: 22px;
+}
+
+article.basic_inner_textblock p {
+    font-size: 1.143rem;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+article.basic_inner_textblock p span {font-weight: 700;}
+
+ul.basic_clinone_list {
+    padding-left: 0;
+}
+
+ul.basic_clinone_list li {
+    list-style-type: none;
+    font-size: 1.143rem;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    text-indent: -18px;
+    margin-left: 18px;
+}
+
+ul.basic_clinone_list li:before {
+    position: relative;
+    top: -3px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f111';
+    font-weight: 800;
+    font-size: 0.66rem;
+    color: #D82B5D;
+    margin-right: 8px;
+}
+
+
+
+
+
+/* ============= */
+/* =========== POP-BOX (INNER VERSION) =========== */
+/* ============= */
+
+.popbox_area_inner {
+    position: relative;
+    background: transparent;
+    min-height: 385px;
+    height: auto;
+    padding-bottom: 95px;
+}
+
+.popbox_inner_content_outermost {
+    padding-top: 2px;
+}
+
+.popbox_inner {
+    position: relative;
+    display: block;
+    padding: 70px 20px 70px 20px;
+    width: 100%;
+    min-height: 345px;
+    height: auto;
+    border-radius: 36px;
+    background: url("../img/circular_texture_bgd.png") center center no-repeat;
+    background-size: cover;
+}
+
+.downloadable_items_holder {
+    padding-top: 42px;
+}
+
+.resource_item {
+    text-align: center;
+}
+
+.resource_item a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    color: #79C2C4;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+}
+
+.resource_item a:hover {color: rgba(121, 194, 196, 0.69);}
+
+img.resource_icon {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 6px;
+    object-fit: contain;
+}
+
+
+
+
+
+/* ============= */
+/* =========== PRE-FOOTER CTA SECTION =========== */
+/* ============= */
+
+.prefooter_solution_cta_area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    min-height: 600px;
+    height: auto;
+}
+
+.prefooter_solution_cta_area:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.whitefog {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    background: url("../img/white_fog.png") center center no-repeat;
+    background-size: cover;
+}
+
+.prefooter_text_holder {
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -240,20 +240,83 @@
     }
     .f_links_outermost.contact_details {margin-bottom: 0;}
     .footer_links_holder {padding-top: 24px;}
+
+    hr.footer_separ {width: 95%;}
 }
 
 @media screen and (max-width: 485px) {
     .f_links_outermost.contact_details {width: 74%;}
     .footer_links_holder {right: 0;}
+
+    ul.f_linx li {margin-bottom: 6px;}
 }
 
 
 
 
 
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Empower (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
 
+@media screen and (max-width: 1199px){
+    .problem_statement p {font-size: 1.2rem;}
+    .problem_statement p span {font-size: 1.9rem;}
 
+    ul.solution_statement_points li {font-size: 1.2rem;}
+    .solution_statement h5 {font-size: 1.5rem;}
+}
 
+@media screen and (max-width: 991px){
+    .problembox {height: 235px; width: 96%;}
+    .solutionbox_inner {position: relative; left: 0; height: 250px;}
+
+    img.ipad_collage {width: 270px;}
+}
+
+@media screen and (max-width: 767px){
+    .problem_statement {padding-left: 12px;}
+    img.ipad_collage {width: 100%; margin-bottom: 22px;}
+
+    .solutions_inner_content_outermost {margin-bottom: 24px;}
+
+    .resource_item {margin-bottom: 42px;}
+    .popbox_inner {padding-bottom: 20px;}
+
+    .prefooter_solution_cta_area:after {background: rgba(255, 255, 255, 0.7);}
+
+}
+
+@media screen and (max-width: 575px){
+    .problembox {width: 93%;}
+    .solutionbox_inner {width: 96%;}
+
+    .popbox_inner_content_outermost {width: 96%; margin: 0 auto;}
+    .popbox_inner {border-radius: 20px;}
+
+    .prefooter_content_outermost {width: 96%; margin: 0 auto;}
+}
+
+@media screen and (max-width: 484px){
+    ul.solution_statement_points li {font-size: 1rem;}
+    ul.solution_statement_points li:before {height: 17px;}
+
+    .problem_statement p {font-size: 1rem;}
+    .problem_statement p span {font-size: 1.5rem;}
+}
+
+@media screen and (max-width: 414px) {
+    img.ipad_collage {margin-bottom: 18px;}
+}
+
+@media screen and (max-width: 390px){
+    .prefooter_solution_cta_area {min-height: 640px;}
+    .whitefog {height: 640px;}
+}
+
+@media screen and (max-width: 370px) {
+    img.ipad_collage {margin-bottom: 4px;}
+}
 
 
 
