@@ -1545,13 +1545,17 @@ hr.preboard {
     border-radius: 8px;
 }
 
+.modal-header {
+    display: inline-block;
+}
+
 .modal-header.clinone_modal_header {
     min-height: 180px;
     height: auto;
     background: #163656;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: baseline;*/
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 24px;
@@ -1601,7 +1605,8 @@ img.biopic {
 .bio_data {
     position: relative;
     height: auto;
-    padding-left: 52px;
+    padding-left: 0;
+    left: -22px;
 }
 
 .bio_data h2 {

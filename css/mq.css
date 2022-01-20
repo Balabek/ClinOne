@@ -350,6 +350,7 @@
 
 @media screen and (max-width: 1199px){
     .team_member {width: 25%;}
+    .bio_data {left: 12px;}
 }
 
 @media screen and (max-width: 991px){
@@ -359,6 +360,10 @@
     .our_company_area {padding-bottom: 55px;}
 
     .modal-dialog.clinone_modal {max-width: 75%;}
+}
+
+@media screen and (max-width: 880px){
+    .bio_data {left: 40px;}
 }
 
 @media screen and (max-width: 767px){
@@ -374,6 +379,7 @@
 }
 
 @media screen and (max-width: 575px){
+    .bio_data {left: 0;}
     .team_members_holder {padding-right: 0;}
     .team_member {width: 100%;}
 
