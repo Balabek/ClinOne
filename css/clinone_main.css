@@ -1061,11 +1061,12 @@ hr.footer_separ {
 .clinone_inner_header_area:after {
     content:"";
     position:absolute;
+    z-index: 1;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .h_banner_inner h1 {
@@ -1077,6 +1078,7 @@ hr.footer_separ {
 
 .h_banner_inner {
     position: absolute;
+    z-index: 2;
     top: 110px;
 }
 
@@ -1089,6 +1091,7 @@ hr.footer_separ {
 
 .problem_solution_content_outermost {
     position: relative;
+    z-index: 3;
     top: -26px;
 }
 
