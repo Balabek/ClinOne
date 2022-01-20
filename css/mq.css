@@ -393,7 +393,7 @@
     .bio_data h3 {text-align: center;}
     .bio_data h4 {text-align: center;}
 
-    a.linkedin_connector {position: relative; bottom: 10px; margin-bottom: -16px;}
+    a.linkedin_connector {position: relative; margin-bottom: 16px; margin-top: 26px;}
 }
 
 @media screen and (max-width: 414px){
