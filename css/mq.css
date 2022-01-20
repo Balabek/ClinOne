@@ -322,7 +322,18 @@
 
 
 
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Why ClinOne (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
 
+@media screen and (max-width: 767px){
+    .mission_content_outermost {padding-top: 18px;}
+    .ceo_image_holder {margin-bottom: 32px;}
+}
+
+@media screen and (max-width: 575px){
+    .mission_text_holder {padding-left: 28px; padding-right: 28px;}
+}
 
 
 

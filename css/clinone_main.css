@@ -1053,6 +1053,16 @@ hr.footer_separ {
     height: auto;
 }
 
+.clinone_inner_header_area:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .h_banner_inner h1 {
     font-size: 4.141rem;
     font-weight: 800;
@@ -1348,6 +1358,86 @@ img.resource_icon {
     position: relative;
     z-index: 3;
 }
+
+
+
+
+
+/* ============= */
+/* =========== WHY CLINONE (INNER PAGE) =========== */
+/* ============= */
+
+.our_mission_area {
+    position: relative;
+    display: block;
+    min-height: 660px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+img.rob {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.mission_content_outermost {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.mission_text_holder {
+    padding-right: 36px;
+}
+
+.our_customers_area {
+    position: relative;
+    min-height: 525px;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 75px;
+    background: #FEFEFE;
+}
+
+.customers_content_outermost {
+    padding-top: 22px;
+}
+
+.set_aparat_area_inner {
+    position: relative;
+    min-height: 680px;
+    height: auto;
+    background: linear-gradient(180deg, #FAFBFC 40.74%, rgba(254, 254, 254, 0) 100%);
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
