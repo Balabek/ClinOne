@@ -1647,6 +1647,16 @@ a.linkedin_connector {
     transition: 0.4s all ease-in;
 }
 
+a.linkedin_connector:hover {
+    color: #ffffff;
+    background: #3980d5;
+}
+a.linkedin_connector:focus {
+    background: #3980d5;
+    outline: none;
+    box-shadow: none !important;
+}
+
 span.lnkdn {
     position: relative;
     display: inline-block;
@@ -1657,35 +1667,6 @@ span.lnkdn {
     margin-right: 6px;
     top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
