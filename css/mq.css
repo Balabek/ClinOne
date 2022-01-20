@@ -285,6 +285,9 @@
 
     .prefooter_solution_cta_area:after {background: rgba(255, 255, 255, 0.7);}
 
+    .h_banner_inner {top: 130px;}
+    .h_banner_inner h1 {font-size: 3rem;}
+
 }
 
 @media screen and (max-width: 575px){
@@ -307,6 +310,8 @@
 
 @media screen and (max-width: 414px) {
     img.ipad_collage {margin-bottom: 18px;}
+
+    .h_banner_inner h1 {font-size: 2.3rem;}
 }
 
 @media screen and (max-width: 390px){
@@ -334,6 +339,86 @@
 @media screen and (max-width: 575px){
     .mission_text_holder {padding-left: 28px; padding-right: 28px;}
 }
+
+
+
+
+
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Our Company (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
+
+@media screen and (max-width: 1199px){
+    .team_member {width: 25%;}
+}
+
+@media screen and (max-width: 991px){
+    .team_member {width: 33%;}
+
+    .company_content_outermost {padding-top: 22px;}
+    .our_company_area {padding-bottom: 55px;}
+
+    .modal-dialog.clinone_modal {max-width: 75%;}
+}
+
+@media screen and (max-width: 767px){
+    .team_member {width: 50%;}
+
+    .our_company_area {padding-top: 18px;}
+
+    .modal-dialog.clinone_modal {max-width: 88%;}
+    .bio_data h2 {font-size: 1.2rem}
+    .bio_data h3 {font-size: 1.1rem}
+    .bio_data h4 {font-size: 1rem}
+
+}
+
+@media screen and (max-width: 575px){
+    .team_members_holder {padding-right: 0;}
+    .team_member {width: 100%;}
+
+    .company_content_outermost {width: 96%; margin: 0 auto;}
+    .company_text_holder {position: relative; top: -50px;}
+
+    .modal-dialog.clinone_modal {max-width: 97%;}
+
+    .modal-header.clinone_modal_header {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .biopic_holder {display: flex; justify-content: center; margin-bottom: 8px;}
+    .bio_data {text-align: center; padding-left: 0;}
+    .bio_data h2 {text-align: center;}
+    .bio_data h3 {text-align: center;}
+    .bio_data h4 {text-align: center;}
+
+    a.linkedin_connector {position: relative; bottom: 10px; margin-bottom: -16px;}
+}
+
+@media screen and (max-width: 414px){
+    img.doc {height: 315px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

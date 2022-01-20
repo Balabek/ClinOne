@@ -9,6 +9,7 @@ html {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +18,10 @@ body {
     height: 100%;
     max-width: 100%;
     /*text-rendering: optimizeLegibility;*/
+    font-weight: normal;
+    /*position: relative;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .title-font {
@@ -1422,11 +1427,236 @@ img.rob {
 
 
 
+/* ============= */
+/* =========== OUR COMPANY (INNER PAGE) =========== */
+/* ============= */
 
+.our_company_area {
+    position: relative;
+    display: block;
+    min-height: 550px;
+    height: auto;
+    background: #F8F9FA;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
+img.doc {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 440px;
+    object-fit: contain;
+}
 
+.company_content_outermost {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
 
+.company_text_holder {
+    /*padding-right: 60px;*/
+}
 
+.team_area {
+    position: relative;
+    display: block;
+    min-height: 1150px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.team_content_outermost {
+    padding-top: 48px;
+}
+
+.team_members_holder {
+    padding-top: 75px;
+}
+
+.team_member {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.team_member a {
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+}
+
+.team_member a:hover h6 {
+    color: #999999;
+}
+
+.team_member a:hover small {
+    color: #999999;
+}
+
+.team_member a:hover img {
+    filter: brightness(50%);
+}
+
+.team_member a h6 {
+    font-size: 1.143rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+
+.team_member a small {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    transition: all 0.4s ease-in;
+}
+
+img.t_member {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 12px;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.19);
+}
+
+hr.preboard {
+    margin-top: 42px;
+}
+
+.modal-content {
+    border: none !important;
+    border-radius: 8px;
+}
+
+.modal-dialog.clinone_modal {
+    overflow: hidden;
+    max-width: 65%;
+    border-radius: 8px;
+}
+
+.modal-header.clinone_modal_header {
+    min-height: 180px;
+    height: auto;
+    background: #163656;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+}
+
+.modal-header .btn-close {
+    top: 12px;
+    left: 0;
+    right: 12px;
+    position: absolute;
+    color: #fff !important;
+    opacity: 0.4;
+}
+
+.modal-body.clinone_modalbody {
+    position: relative;
+    min-height: 350px;
+    height: auto;
+    padding: 32px 20px 32px 20px;
+}
+
+span.modalcircle {
+    position: absolute;
+    z-index: 0;
+    left: 79%;
+    right: 0;
+    bottom: 0;
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/modalcircle.png") no-repeat;
+    background-size: contain;
+}
+
+img.biopic {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 12px;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.19);
+}
+
+.bio_data {
+    position: relative;
+    height: auto;
+    padding-left: 52px;
+}
+
+.bio_data h2 {
+    font-size: 1.371rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+
+.bio_data h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.bio_data h4 {
+    font-size: 1.186rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+article.modal_text {
+    padding-top: 4px;
+    margin-bottom: 8px;
+}
+
+article.modal_text p {
+    font-size: 1.143rem;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+a.linkedin_connector {
+    position: absolute;
+    height: 44px;
+    width: 200px;
+    bottom: 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 2px;
+    background: #2867B2;
+    text-align: center;
+    transition: 0.4s all ease-in;
+}
+
+span.lnkdn {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/linkedin_white.svg) no-repeat;
+    background-size: contain;
+    margin-right: 6px;
+    top: 5px;
+}
 
 
 
