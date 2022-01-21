@@ -409,6 +409,20 @@
 
 
 
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Locations (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
+
+@media screen and (max-width: 991px){
+    .other_locations_holder {
+        padding-left: 13px;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .map_and_data_holder {padding-left: 32px;}
+}
 
 
 

@@ -15,10 +15,10 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     height: 100%;
     max-width: 100%;
     /*text-rendering: optimizeLegibility;*/
-    font-weight: normal;
     /*position: relative;*/
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1675,6 +1675,115 @@ span.lnkdn {
     margin-right: 6px;
     top: 5px;
 }
+
+
+
+
+
+/* ============= */
+/* =========== LOCATIONS (INNER PAGE) =========== */
+/* ============= */
+
+.locations_area {
+    position: relative;
+    display: block;
+    min-height: 900px;
+    height: auto;
+    padding-top: 36px;
+    padding-bottom: 75px;
+    background: url("../img/locations_area_bgd.png") center center no-repeat;
+    background-size: cover;
+}
+
+.loc_content_outermost {
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 32px;
+}
+
+.map_and_data_holder {
+    padding-top: 50px;
+}
+
+.clinone_map {
+    box-shadow: 0 4px 241px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.other_locations_holder {
+    padding-top: 22px;
+    padding-left: 32px;
+}
+
+.other_locations_holder h4 {
+    font-size: 1.714rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.loc_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #79C2C4;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.loc_circle > i {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.location h6 {
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: left;
+    margin: 0;
+}
+
+.hq_address_holder {
+    padding-left: 0;
+}
+
+.hq_address_holder {
+    margin-top: 18px;
+}
+
+.hq_address_holder h4 {
+    font-size: 1.714rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.hq_address_holder p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: #666666;
+}
+
+
+
+
+
+
+
 
 
 
