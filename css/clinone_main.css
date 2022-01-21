@@ -1874,11 +1874,77 @@ a.careerbox h6 {
 
 
 
+/* ============= */
+/* =========== JOB DETAILS (INNER PAGE) =========== */
+/* ============= */
 
+.job_details_area {
+    position: relative;
+    display: block;
+    min-height: 900px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background: #fefefe;
+}
 
+.job_title_and_date_holder {
+    padding-left: 0;
+}
 
+.job_title_and_date_holder small {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #163656;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
 
+.job_title_and_date_holder h1 {
+    font-size: 2.571rem;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
 
+.job_title_and_date_holder h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+hr.job_separator {
+    width: 100%;
+    background: #999999;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    opacity: 0.44;
+}
+
+h4.sub_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+h6.sub_sub_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
 
 
 

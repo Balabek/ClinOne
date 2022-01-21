@@ -446,6 +446,7 @@
 
 @media screen and (max-width: 575px) {
     .career_type_holder {padding-left: 28px;}
+    .job_details_area {width: 94%; margin: 0 auto;}
 }
 
 
