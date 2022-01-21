@@ -453,11 +453,18 @@
 
 
 
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== News (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
 
+@media screen and (max-width: 991px){
+    .news_blog_thumb {height: 325px; margin-bottom: 16px;}
+    button.readmore_btn {position: relative; margin-top: 18px;}
+}
 
-
-
-
+@media screen and (max-width: 575px){
+    .all_news_content_outermost {padding-left: 18px;}
+}
 
 
 
