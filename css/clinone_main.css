@@ -656,7 +656,11 @@ article.standard_body_text.centered_and_shrinked {
     text-align: center;
     width: 50%;
     margin: 0 auto;
-
+}
+article.standard_body_text.centered_and_shrinked_wider {
+    text-align: center;
+    width: 58%;
+    margin: 0 auto;
 }
 
 article.standard_body_text p {
@@ -665,6 +669,17 @@ article.standard_body_text p {
     color: #000000;
     line-height: 1.6;
     margin-bottom: 18px;
+}
+
+article.standard_body_text a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #79C2C4;
+    transition: all 0.4s ease-in;
+}
+
+article.standard_body_text a:hover {
+    color: #67a7a8;
 }
 
 article.standard_body_text p span {font-weight: 700;}
@@ -1777,6 +1792,86 @@ span.lnkdn {
     text-align: left;
     color: #666666;
 }
+
+
+
+
+
+/* ============= */
+/* =========== CAREERS (INNER PAGE) =========== */
+/* ============= */
+
+.careers_area {
+    position: relative;
+    display: block;
+    min-height: 1000px;
+    height: auto;
+    padding-top: 36px;
+    padding-bottom: 75px;
+    background: #fefefe;
+}
+
+.careers_content_outermost {
+    padding-top: 55px;
+}
+
+.career_type_holder {
+    padding-top: 75px;
+    padding-left: 0;
+    margin-bottom: 80px;
+}
+
+
+h5.career_type {
+    font-size: 1.714rem;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    padding-left: 12px;
+    margin-bottom: 32px;
+}
+
+.careerbox_holder {
+    margin-bottom: 26px;
+}
+
+a.careerbox {
+    display: block;
+    padding-top: 60px;
+    position: relative;
+    height: 160px;
+    background: #FFFFFF;
+    text-decoration: none !important;
+    border: 1px solid rgba(22, 54, 86, 0.42);
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
+}
+
+a.careerbox:hover {background: #163656;}
+a.careerbox:hover h5 {color: #ffffff;}
+a.careerbox:hover h6 {color: #e8e8e8;}
+
+a.careerbox h5 {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+a.careerbox h6 {
+    display: block;
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
 
 
 

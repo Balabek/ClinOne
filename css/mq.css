@@ -156,14 +156,17 @@
 @media screen and (max-width: 1199px){
     .circle_icon_holder h5 {font-size: 1.1rem;}
     article.standard_body_text.centered_and_shrinked {width: 70%;}
+    article.standard_body_text.centered_and_shrinked_wider {width: 75%;}
 }
 
 @media screen and (max-width: 991px){
     .circle_icon_holder {margin-bottom: 84px;}
+    article.standard_body_text.centered_and_shrinked_wider {width: 95%;}
 }
 
 @media screen and (max-width: 767px){
     article.standard_body_text.centered_and_shrinked {width: 97%;}
+    article.standard_body_text.centered_and_shrinked_wider {width: 97%;}
     .set_aparat_area {padding-bottom: 16px;}
     .set_apart_content_outermost {padding-top: 60px;}
 }
@@ -423,6 +426,45 @@
 @media screen and (max-width: 575px){
     .map_and_data_holder {padding-left: 32px;}
 }
+
+
+
+
+
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Careers (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
+
+@media screen and (max-width: 1199px){
+    a.careerbox h5 {font-size: 1.1rem;}
+    a.careerbox h6 {font-size: 1rem;}
+}
+
+@media screen and (max-width: 767px){
+    .career_type_holder {margin-bottom: 36px;}
+}
+
+@media screen and (max-width: 575px) {
+    .career_type_holder {padding-left: 28px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
