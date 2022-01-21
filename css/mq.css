@@ -447,6 +447,7 @@
 @media screen and (max-width: 575px) {
     .career_type_holder {padding-left: 28px;}
     .job_details_area {width: 94%; margin: 0 auto;}
+
 }
 
 
@@ -464,6 +465,19 @@
 
 @media screen and (max-width: 575px){
     .all_news_content_outermost {padding-left: 18px;}
+    .news_details_content_outermost {width: 97%; margin: 0 auto;}
+}
+
+@media screen and (max-width: 499px){
+    .news_blog_thumb {height: 250px;}
+}
+
+@media screen and (max-width: 414px){
+    .news_blog_thumb {height: 200px;}
+}
+
+@media screen and (max-width: 365px){
+    .news_blog_thumb {height: 180px;}
 }
 
 

@@ -900,7 +900,7 @@ img.p_logo {
 footer.clinone_footer {
     position: relative;
     display: block;
-    min-height: 600px;
+    min-height: 570px;
     height: auto;
     padding-top: 70px;
     padding-bottom: 42px;
@@ -922,7 +922,7 @@ img.footerlogo {
 }
 
 .footer_links_holder {
-    padding-top: 55px;
+    padding-top: 28px;
 }
 
 
@@ -2047,6 +2047,131 @@ li.page-item.disabled {opacity: 0.5;}
     color: #D82B5D;
     background-color: #e9ecef;
     border-color: #dee2e6;
+}
+
+h6.postedby {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666666;
+    display: inline-block;
+    position: relative;
+    margin-left: 32px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* ============= */
+/* =========== NEWS/BLOG THREAD (INNER PAGE) =========== */
+/* ============= */
+
+.news_details_area {
+    position: relative;
+    display: block;
+    min-height: 900px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background: #fefefe;
+}
+
+.news_title_and_date_holder {
+    padding-left: 0;
+}
+
+.news_title_and_date_holder small {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #163656;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.news_title_and_date_holder h2 {
+    font-size: 1.571rem;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.news_title_and_date_holder h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+hr.news_separator {
+    width: 100%;
+    background: #999999;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    opacity: 0.44;
+}
+
+h4.sub_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #163656;
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+h6.sub_sub_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.share_bookmark_holder {
+    padding-top: 20px;
+    margin-bottom: 42px;
+}
+
+a.sharing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background: #79C2C4;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a.sharing:hover {
+    background: #67a5a8;
+}
+
+span.sharearrow {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url("../img/share_arrow.svg") center center no-repeat;
+    background-size: contain;
+}
+
+span.bkmrk {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url("../img/bookmark.svg") center center no-repeat;
+    background-size: contain;
 }
 
 
