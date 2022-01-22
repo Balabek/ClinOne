@@ -1066,6 +1066,10 @@ a.linkedin_footerlink {
     transition: 0.4s all ease-in !important;
 }
 
+a.linkedin_footerlink > span {
+    font-weight: 700;
+}
+
 
 
 /* ============= */
