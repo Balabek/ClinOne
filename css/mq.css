@@ -470,17 +470,84 @@
 
 @media screen and (max-width: 499px){
     .news_blog_thumb {height: 250px;}
+    img.news_blog_large_image {height: 250px;}
 }
 
 @media screen and (max-width: 414px){
     .news_blog_thumb {height: 200px;}
+    img.news_blog_large_image {height: 200px;}
 }
 
 @media screen and (max-width: 365px){
     .news_blog_thumb {height: 180px;}
+    img.news_blog_large_image {height: 180px;}
 }
 
 
+
+
+
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
+/* =========== Contact (inner page) =========== */
+/*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
+
+@media screen and (max-width: 1399px){
+    .clinoneform_fieldset_chkbx {
+        width: 39%;
+        padding-left: 28px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .pre_form_tagline_holder {width: 90%;}
+}
+
+@media screen and (max-width: 991px){
+    .pre_form_tagline_holder h3 {font-size: 2.2rem;}
+    .pre_form_tagline_holder h4 {font-size: 1.2rem;}
+}
+
+@media screen and (max-width: 767px){
+    .contact_type_holder {margin-bottom: 46px;}
+    .contact_type_holder:last-child {margin-bottom: 0;}
+
+    .contact_upper_aprea {min-height: 965px;}
+    .pre_form_tagline_holder {padding-top: 36px;}
+
+    .clinoneform_fieldset_chkbx {
+        width: 50%;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .pre_form_tagline_holder h3 {font-size: 1.7rem;}
+
+    .clinoneform_fieldset_chkbx {width: 52%;}
+
+    .submit_btn_holder {padding-left: 2.4rem;}
+}
+
+@media screen and (max-width: 510px){
+    .clinoneform_fieldset_chkbx {width: 70%;}
+}
+
+@media screen and (max-width: 499px){
+    input#agreement {position: relative; left: 50%;}
+    .form-check-label.agreement_label {text-align: center; top: 34px;}
+}
+
+@media screen and (max-width: 490px){
+    .clinoneform_fieldset_chkbx {width: 75%;}
+}
+
+@media screen and (max-width: 472px){
+    .form-check-label.agreement_label {top: 11px;}
+}
+
+@media screen and (max-width: 378px){
+    .clinoneform_fieldset_chkbx {width: 100%;}
+}
 
 
 

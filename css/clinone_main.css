@@ -2174,23 +2174,250 @@ span.bkmrk {
     background-size: contain;
 }
 
+.news_blog_large_image_holder {
+    padding-top: 46px;
+}
+
+img.news_blog_large_image {
+    display: block;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 
 
 
 
 
+/* ============= */
+/* =========== CONTACT (INNER PAGE) =========== */
+/* ============= */
 
+.contact_upper_aprea {
+    position: relative;
+    display: block;
+    min-height: 750px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 32px;
+    background: #F8F9FA;
+}
 
+.contact_upper_content_outermost {
+    padding-top: 34px;
+}
 
+.contact_type_holder {
+    text-align: center;
+}
 
+.contact_type_circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    width: 88px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 140px -6px rgba(0, 0, 0, 0.16);
+}
 
+img.contacticon {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
 
+.contact_type_holder h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #163656;
+    margin-bottom: 12px;
+}
 
+.phone_and_email_holder {
+    text-align: center;
+}
 
+.phone_and_email_holder a {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #163656;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
 
+.phone_and_email_holder a i {
+    font-size: 1rem;
+    color: #79C2C4;
+    margin-right: 6px;
+}
 
+.pre_form_tagline_holder {
+    padding-top: 120px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
 
+.pre_form_tagline_holder h3 {
+    font-size: 2.571rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
 
+.pre_form_tagline_holder h3 span {
+    font-weight: 700;
+    color: #79C2C4;
+}
 
+.pre_form_tagline_holder h4 {
+    font-size: 1.571rem;
+    font-weight: 400;
+    margin-top: 46px;
+    color: #000000;
+    text-align: center;
+}
+
+.contact_lower_area {
+    position: relative;
+    min-height: 945px;
+    height: auto;
+    background: url('../img/contact_lower_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+form.clinone_form {
+    position: relative;
+    top: -130px;
+    min-height: 900px;
+    height: auto;
+    padding: 32px 22px 32px 22px;
+    background: #FFFFFF;
+    box-shadow: 0 60px 250px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.clinone_label {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 4px;
+}
+
+input.clinone_input {
+    height: 50px;
+    border-radius: 1px;
+    padding-left: 18px;
+    color: #163656;
+    background: #F7F7F7;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+
+input.clinone_input:focus {
+    background: #F7F7F7;
+    border: 1px solid rgba(223, 223, 223, 0.28);
+}
+
+.clinoneform_fieldset {
+    margin-bottom: 44px;
+}
+
+.clinoneform_fieldset_chkbx {
+    margin-bottom: 44px;
+}
+
+.clinoneform_fieldset_centered {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.clinone_formcheck {
+    margin-bottom: 28px;
+}
+
+.form-check-label {
+    position: relative;
+    top: 6px;
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+}
+
+input.clinone_formcheck_input {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+input.clinone_formcheck_input:hover {
+    cursor: pointer !important;
+}
+
+input.clinone_formcheck_input:checked {
+    background-color: #79C2C4;
+    border-color: #79C2C4;
+}
+
+.form-check-input:focus {
+    border-color: rgba(121, 194, 196, 0.5);
+    outline: 0;
+    box-shadow: none;
+}
+
+h5.options_questions {
+    font-size: 1.143rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+a.form_privacy_link {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 36px;
+    transition: all 0.4s ease;
+}
+
+a.form_privacy_link:hover {
+    color: #666666;
+}
+
+.submit_btn_holder {
+    margin-top: 22px;
+}
+
+button.clinone_form_submit_btn {
+    position: relative;
+    top: -3px;
+    width: 225px;
+    height: 60px;
+    border-radius: 2px;
+    background: #163656;
+    color: #ffffff;
+    font-size: 1.143rem;
+    font-weight: 400;
+    transition: all 0.4s ease-in;
+}
+
+button.clinone_form_submit_btn:hover {
+    color: #ffffff;
+    background: rgba(22, 54, 86, 0.82);;
+}
 
 
