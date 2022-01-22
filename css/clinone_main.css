@@ -894,7 +894,7 @@ img.p_logo {
 
 
 /* ============= */
-/* =========== FOOTER =========== */
+/* =========== TEST TEST TEST =========== */
 /* ============= */
 
 footer.clinone_footer {
@@ -907,11 +907,11 @@ footer.clinone_footer {
     background: #f9f9f9;
 }
 
-.footer_logo_holder {
+.clinone_footer_logo_holder {
     text-align: center;
 }
 
-img.footerlogo {
+img.clinonefooterlogo {
     display: inline-block;
     position: relative;
     width: 100%;
@@ -921,35 +921,30 @@ img.footerlogo {
     margin-bottom: 42px;
 }
 
-.footer_links_holder {
+.clinonefooter_links_holder {
     padding-top: 28px;
 }
 
-
-.f_links_outermost {
-
-}
-
-.f_links_outermost h6 {
+h6.footerlinks_title {
     display: inline-block;
     font-size: 1.143rem;
     font-weight: 700;
     color: #D82B5D;
     text-align: left;
     padding-left: 0;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
-ul.f_linx {
+ul.clinonef_linx {
     padding-left: 0;
 }
 
-ul.f_linx li {
+ul.clinonef_linx li {
     list-style-type: none;
     margin-bottom: 12px;
 }
 
-ul.f_linx li a {
+ul.clinonef_linx li a {
     font-size: 1rem;
     font-weight: 400;
     color: #000000;
@@ -958,25 +953,25 @@ ul.f_linx li a {
     transition: 0.4s all ease-in-out;
 }
 
-ul.f_linx li a:hover {
+ul.clinonef_linx li a:hover {
     color: #999999;
 }
 
-.likedin_connection_holder {
+.clinonelikedin_connection_holder {
     padding-top: 8px;
 }
 
-ul.f_linx_contact {
+ul.clinonef_linx_contact {
     padding-left: 0;
 }
 
-ul.f_linx_contact li {
+ul.clinonef_linx_contact li {
     list-style-type: none;
     margin-bottom: 12px;
 }
 
-ul.f_linx_contact li a {
-    font-size: 1.143rem;
+ul.clinonef_linx_contact li a {
+    font-size: 1.1rem;
     font-weight: 500;
     color: #163656;
     text-align: left;
@@ -984,21 +979,21 @@ ul.f_linx_contact li a {
     transition: 0.4s all ease-in-out;
 }
 
-ul.f_linx_contact li a:hover {
+ul.clinonef_linx_contact li a:hover {
     color: #999999;
 }
 
-ul.f_linx_contact li > i {
+ul.clinonef_linx_contact li > i {
     font-size: 1.143rem;
     color: #79C2C4;
     margin-right: 6px;
 }
 
-.icon_and_text_holder {
+.clinoneicon_and_text_holder {
     position: relative;
 }
 
-.icon_and_text_holder a {
+.clinoneicon_and_text_holder a {
     font-size: 0.92rem;
     font-weight: 300;
     text-align: left;
@@ -1010,11 +1005,11 @@ ul.f_linx_contact li > i {
     transition: 0.4s all ease-in;
 }
 
-.icon_and_text_holder a:hover {
+.clinoneicon_and_text_holder a:hover {
     color: #02679b;
 }
 
-.icon_and_text_holder a span {font-weight: 500;}
+.clinoneicon_and_text_holder a span {font-weight: 500;}
 
 span.linkedin {
     display: inline-block;
@@ -1024,9 +1019,9 @@ span.linkedin {
     background-size: contain;
 }
 
-.f_links_outermost {
-    position: relative;
-    padding-left: 9%;
+.clinonef_links_outermost {
+    display: inline-flex;
+    justify-content: center;
 }
 
 hr.footer_separ {
@@ -1059,6 +1054,17 @@ hr.footer_separ {
     color: #79C2C4;
 }
 
+a.linkedin_footerlink {
+    font-size: 0.92rem !important;
+    font-weight: 300 !important;
+    text-align: left !important;
+    color: #007AB9 !important;
+    position: relative !important;
+    top: -8px !important;
+    left: 5px !important;
+    text-decoration: none !important;
+    transition: 0.4s all ease-in !important;
+}
 
 
 
@@ -2419,5 +2425,38 @@ button.clinone_form_submit_btn:hover {
     color: #ffffff;
     background: rgba(22, 54, 86, 0.82);;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
