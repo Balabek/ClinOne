@@ -191,6 +191,8 @@ button.navbtn:focus {
 }
 
 .clin_nav_toggler {
+    position: relative;
+    top: -4px;
     border: none !important;
 }
 
@@ -1584,13 +1586,25 @@ hr.preboard {
     padding-top: 24px;
 }
 
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #ffffff;
+    background: transparent url('../img/close1.svg') center/1em auto no-repeat;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: 0.5;
+}
+
 .modal-header .btn-close {
     top: 12px;
     left: 0;
     right: 12px;
     position: absolute;
     color: #fff !important;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .modal-body.clinone_modalbody {

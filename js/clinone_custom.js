@@ -89,26 +89,4 @@ $(document).ready(function(){
 
     ScrollReveal().reveal('.ipad_collage_holder', {delay: 200, duration: 600});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
