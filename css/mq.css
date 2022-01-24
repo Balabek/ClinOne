@@ -322,6 +322,10 @@
 /* =========== Our Company (inner page) =========== */
 /*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=*/
 
+@media screen and (min-width: 1600px){
+    .modal-dialog.clinone_modal {max-width: 875px;}
+}
+
 @media screen and (max-width: 1199px){
     .team_member {width: 25%;}
     .bio_data {left: 12px;}
