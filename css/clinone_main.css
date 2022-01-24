@@ -60,16 +60,27 @@ input:disabled, input[disabled] {
 /* =========== NAVIGATION =========== */
 /* ============= */
 
+.nav {
+    transition: 0.4s all ease-in-out;
+}
+
 .bg-light {
-    position: relative;
+    /*position: relative;*/
     z-index: 10;
     padding-top: 18px;
     padding-bottom: 18px;
-    /*min-height: 101px;*/
-    /*height: auto;*/
     background: #FFFFFF !important;
     box-shadow: 0 33px 119px rgba(0, 0, 0, 0.04);
+
+    transition: 0.4s all ease-in-out;
 }
+
+/*.shrink {*/
+/*    padding-top: 0 !important;*/
+/*    padding-bottom: 0 !important;*/
+/*    */
+/*    transition: 0.4s all ease-in-out;*/
+/*}*/
 
 img.nav_logo {
     display: inline-block;
@@ -318,7 +329,7 @@ button.nav_signin_btn:hover {
     min-height: 735px;
     height: auto;
     width: 100%;
-     background-color: #ced4da;
+    /*background-color: #ced4da;*/
 }
 
 .h_banner_home {
@@ -407,7 +418,7 @@ button.main_cta_btn:focus {
     width: 355px;
     height: 345px;
     box-shadow: 0 21px 45px -6px rgba(0, 0, 0, 0.06);
-    transition: 0.4s all ease-in-out;
+    transition: 0.2s all ease-in-out;
     text-decoration: none !important;
     margin-right: 34px;
     cursor: pointer !important;
@@ -419,7 +430,7 @@ button.main_cta_btn:focus {
 
 .solution_box_outermost:hover {
     box-shadow: 0 21px 45px -6px rgba(121, 194, 196,0.22);
-    top: -7px;
+    top: -16px;
 }
 
 .solutionbox {
@@ -894,7 +905,7 @@ img.p_logo {
 
 
 /* ============= */
-/* =========== TEST TEST TEST =========== */
+/* =========== FOOTER =========== */
 /* ============= */
 
 footer.clinone_footer {
@@ -1854,7 +1865,14 @@ h5.career_type {
 }
 
 .careerbox_holder {
+    top: 0;
+    position: relative;
     margin-bottom: 26px;
+    transition: 0.2s all ease-in-out;
+}
+
+.careerbox_holder:hover {
+    top: -12px;
 }
 
 a.careerbox {
@@ -1866,7 +1884,7 @@ a.careerbox {
     text-decoration: none !important;
     border: 1px solid rgba(22, 54, 86, 0.42);
     border-radius: 8px;
-    transition: all 0.4s ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 a.careerbox:hover {background: #163656;}
@@ -2441,9 +2459,6 @@ button.clinone_form_submit_btn:hover {
     color: #ffffff;
     background: rgba(22, 54, 86, 0.82);;
 }
-
-
-
 
 
 

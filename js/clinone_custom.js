@@ -2,6 +2,13 @@
 
 $(document).ready(function(){
 
+    // $(document).scroll(function() {
+    //     if ($(document).scrollTop() > 100) {
+    //         $('.bg-light').addClass('shrink');
+    //     } else {
+    //         $('.bg-light').removeClass('shrink');
+    //     }
+    // });
 
     // Fancy animation for hamburger menu
     $('.clin_nav_toggler').on('click', function(){
@@ -88,5 +95,6 @@ $(document).ready(function(){
     ScrollReveal().reveal('.team_member', {delay: 150});
 
     ScrollReveal().reveal('.ipad_collage_holder', {delay: 200, duration: 600});
+
 
 });
