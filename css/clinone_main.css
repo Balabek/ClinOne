@@ -124,10 +124,9 @@ li.nav-item > a.active:after {
     color: #D82B5D !important;
 }
 
-/*li.nav-item > a:focus:after {*/
-/*    transform: scaleX(1);*/
-/*    transition: transform .3s;*/
-/*}*/
+
+
+
 
 ul.clin_dropdown_menu {
     width: 200px;

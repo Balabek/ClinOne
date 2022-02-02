@@ -12,6 +12,16 @@
     li.nav-item > a:after {bottom: 0;}
 }
 
+/* Dropdown on-hover (Desktop only!) */
+@media all and (min-width: 992px) {
+    .navbar .dropdown-menu-end{right:0; left: auto; }
+    .navbar .nav-item .dropdown-menu{display:block; opacity: 0; visibility: hidden; transition:.9s; margin-top:0;}
+    .navbar .nav-item:hover .nav-link{color: #777;  }
+    .navbar .dropdown-menu.fade-down{top:80%; transform-origin: 0 0;}
+    .navbar .dropdown-menu.fade-up{top:180%;}
+    .navbar .nav-item:hover .dropdown-menu{ transition: .9s; opacity:1; visibility:visible; top:100%;}
+}
+
 
 
 /*-=-=-=-=-=-=*/ /*-=-=-=-=-=-=-=-*/
@@ -42,6 +52,19 @@
     .h_banner_home {width: 75%; left: 15px;}
 }
 
+@media screen and (max-width: 575px){
+    .clinone_home_header_area {min-height: 500px;}
+    .h_banner_home {top: 130px;}
+}
+
+@media screen and (max-width: 550px){
+    .h_banner_home h1 {margin-bottom: 22px;}
+    .h_banner_home h2 {margin-bottom: 30px;}
+}
+
+@media screen and (max-width: 430px){
+    .h_banner_home {top: 90px;}
+}
 
 
 
@@ -81,7 +104,7 @@
 
 @media screen and (max-width: 575px){
     .solution_boxes_holder {
-        top: -150px;
+        top: -45px;
         width: 96%;
         margin: 0 auto;
     }
