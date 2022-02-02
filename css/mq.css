@@ -130,7 +130,7 @@
     .resource_details h5 {font-size: 1.5rem;}
 }
 
-@media screen and (min-height: 575px){
+@media screen and (max-width: 575px){
     .resources_area {min-height: 1650px;}
 }
 
