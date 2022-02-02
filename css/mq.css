@@ -130,6 +130,10 @@
     .resource_details h5 {font-size: 1.5rem;}
 }
 
+@media screen and (min-height: 575px){
+    .resources_area {min-height: 1650px;}
+}
+
 @media screen and (max-width: 499px){
     .resources_slider_holder {width: 97%; padding-top: 20%;}
 }
